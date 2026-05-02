@@ -679,7 +679,7 @@ function initGoogleAuth(){
   const scope=encodeURIComponent('https://www.googleapis.com/auth/spreadsheets https://www.googleapis.com/auth/drive.file');
   const authUrl='https://accounts.google.com/o/oauth2/v2/auth'
     +'?client_id='+encodeURIComponent(gsClientId)
-    +'&redirect_uri='+encodeURIComponent('http://localhost')
+    +'&redirect_uri='+encodeURIComponent('https://project-inx68.vercel.app')
     +'&response_type=token'
     +'&scope='+scope
     +'&prompt=select_account';
